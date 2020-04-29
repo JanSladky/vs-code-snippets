@@ -1,0 +1,82 @@
+{
+
+	"php snippet": {
+		"prefix": "php",
+		"body": "<?php $1 ?>",
+		"description": "php snippet"
+	},
+
+	"console log": {
+		"prefix": "cl",
+		"body": "console.log($1)",
+		"description": "console log"
+	},
+
+	"printR": {
+		"prefix": "pr",
+		"body": [
+			"<?php ",
+			"  echo '<pre>'; ",
+			"    print_r($1); ",
+			"  echo '</pre>'; ",
+			"?>"
+		],
+		"description": "printR"
+	},
+
+	"header": {
+		"prefix": "head",
+		"body": "header('Location: $1');",
+		"description": "header location"
+	},
+
+	"if": {
+		"prefix": "if",
+		"body": [
+			"if ( $1 ) {",
+			"  $2",
+			"};"
+		],
+		"description": "if"
+	},
+	"foreach": {
+		"prefix": "fore",
+		"body": [
+			"foreach ($1 as $2) {",
+			"  $3",
+			"};"
+		],
+		"description": "foreach"
+	},
+	"require": {
+		"prefix": "require",
+		"body": [
+			"<?php require '$1' ?>"
+		],
+		"description": "require"
+	},
+	"require once": {
+		"prefix": "requireo",
+		"body": [
+			"<?php require_once '$1' ?>"
+		],
+		"description": "require once"
+	},
+	"include": {
+		"prefix": "include",
+		"body": [
+			"<?php include '$1' ?>"
+		],
+		"description": "include"
+	},
+	"include once": {
+		"prefix": "includeo",
+		"body": [
+			"<?php include_once '$1' ?>"
+		],
+		"description": "include once"
+	},
+	
+
+
+}

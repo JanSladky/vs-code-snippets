@@ -1,0 +1,36 @@
+{
+	"jQuery Bubble": {
+		"prefix": "jqb",
+		"body": [
+			"(function($) {",
+			"    $1",
+			"  ",
+			"}(jQuery));"
+		],
+		"description": "jQuery Bubble"
+	},
+"NamedFunction": {
+	"prefix": "nfn",
+	"body": [
+		"function ${1:functionName}($2) {",
+		"    $3",
+		"};"
+	],
+	"description": "NamedFunction"
+},
+"AnonymousFunction": {
+	"prefix": "afn",
+	"body": [
+		"function($1) {",
+		" $2",
+		"};"
+	],
+	"description": "AnonymousFunction"
+},
+
+	"jQuery": {
+		"prefix": "$",
+		"body": "$('$1')",
+		"description": "jQuery bubble"
+	}
+}
