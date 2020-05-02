@@ -76,7 +76,14 @@
 		],
 		"description": "include once"
 	},
-	
+	"htmlspecialchars": {
+		"prefix": "spch",
+		"body": [
+			"htmlspecialchars($1);"
+		],
+		"description": "htmlspecialchars"
+	},
+
 
 
 }
